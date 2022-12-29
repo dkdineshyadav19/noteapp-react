@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div className="">
       <nav className="navbar navbar-expand navbar-dark bg-dark p-2">
-        <Link className="navbar-brand text-light" >
-          <img src="/log1.png" alt=""/>KeepNotes
-        </Link>
+        <p className="navbar-brand text-light" >
+          KeepNotes
+        </p>
         <button
           className="navbar-toggler"
           type="button"
