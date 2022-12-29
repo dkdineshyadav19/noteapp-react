@@ -53,7 +53,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Notes newNote={newNote} edit={edit} ondelete={ondelete}/>} />
+          <Route exact path="/home" element={<Notes newNote={newNote} edit={edit} ondelete={ondelete}/>} />
           <Route exact path="/create" element={<Create update={update} />} />
           <Route exact path="/edit" element={<Edit update={update} editNotes={editNotes} ondelete={ondelete}/>} />
         </Routes>
